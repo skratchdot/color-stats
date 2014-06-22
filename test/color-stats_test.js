@@ -57,5 +57,20 @@ exports['color-stats'] = {
 		test.ok(colorStats(Date).hasOwnProperty('hex'));
 		test.ok(colorStats(new Date()).hasOwnProperty('hex'));
 		test.done();
+	},
+	'random should return alpha sometimes': function (test) {
+		var iterations = 1000;
+		var oneAlpha = false;
+		var result;
+		test.expect(iterations + 1);
+		for (var i = 0; i < iterations; i++) {
+			result = colorStats.random();
+			test.ok(result.hasOwnProperty('hex'));
+			if (result.alpha !== 1) {
+				oneAlpha = true;
+			}
+		}
+		test.ok(oneAlpha);
+		test.done();
 	}
 };

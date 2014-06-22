@@ -237,6 +237,10 @@ do some duplicate re-parsing, etc).
 
 ## Release History
 
+#### v0.2.1 - Released June 22, 2014
+
+- colorStats.random() should return alpha channel sometimes
+
 #### v0.2.0 - Released June 22, 2014
 
 - fixing a bug with the harmonies/scales that were being generated
