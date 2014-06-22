@@ -139,24 +139,24 @@ var result = colorStats('#4682b4'); // see result output below
 	isWebsafe: false,
 	isWebsmart: false,
 	schemes: {
-		complementary: ['#3184c9', '#c97631'],
-		splitComplementary: ['#3184c9', '#c93138', '#31c9a9'],
-		splitComplementaryCW: ['#3184c9', '#c93138', '#31c976'],
-		splitComplementaryCCW: ['#3184c9', '#7631c9', '#c9c231'],
-		triadic: ['#3184c9', '#c93184', '#84c931'],
-		clash: ['#3184c9', '#c231c9', '#38c931'],
-		tetradic: ['#3184c9', '#c231c9', '#c97631', '#38c931'],
-		fourToneCW: ['#3184c9', '#7631c9', '#c97631', '#84c931'],
-		fourToneCCW: ['#3184c9', '#c93184', '#c97631', '#31c976'],
-		fiveToneA: ['#3184c9', '#c93191', '#c93631', '#c9b631', '#77c931'],
-		fiveToneB: ['#3184c9', '#4331c9', '#c231c9', '#c9316a', '#77c931'],
-		fiveToneC: ['#3184c9', '#5d31c9', '#c231c9', '#c9b631', '#31c9a9'],
-		fiveToneD: ['#3184c9', '#4331c9', '#c93631', '#38c931', '#31c990'],
-		fiveToneE: ['#3184c9', '#c93191', '#9dc931', '#38c931', '#31c9a9'],
-		sixToneCW: ['#3184c9', '#3138c9', '#c93184', '#c93138', '#84c931', '#38c931'],
-		sixToneCCW: ['#3184c9', '#c231c9', '#c93184', '#c9c231', '#84c931', '#31c9c2'],
-		neutral: ['#3184c9', '#315ec9', '#3138c9', '#5031c9', '#7631c9', '#9c31c9'],
-		analogous: ['#3184c9', '#3138c9', '#7631c9', '#c231c9', '#c93184', '#c93138']
+		complementary: ['#4682b4', '#b47846'],
+		splitComplementary: ['#4682b4', '#b4464b', '#46b49d'],
+		splitComplementaryCW: ['#4682b4', '#b4464b', '#46b478'],
+		splitComplementaryCCW: ['#4682b4', '#7846b4', '#b4af46'],
+		triadic: ['#4682b4', '#b44682', '#82b446'],
+		clash: ['#4682b4', '#af46b4', '#4bb446'],
+		tetradic: ['#4682b4', '#af46b4', '#b47846', '#4bb446'],
+		fourToneCW: ['#4682b4', '#7846b4', '#b47846', '#82b446'],
+		fourToneCCW: ['#4682b4', '#b44682', '#b47846', '#46b478'],
+		fiveToneA: ['#4682b4', '#b4468b', '#b44a46', '#b4a646', '#79b446'],
+		fiveToneB: ['#4682b4', '#5346b4', '#af46b4', '#b44670', '#79b446'],
+		fiveToneC: ['#4682b4', '#6646b4', '#af46b4', '#b4a646', '#46b49d'],
+		fiveToneD: ['#4682b4', '#5346b4', '#b44a46', '#4bb446', '#46b48a'],
+		fiveToneE: ['#4682b4', '#b4468b', '#94b446', '#4bb446', '#46b49d'],
+		sixToneCW: ['#4682b4', '#464bb4', '#b44682', '#b4464b', '#82b446', '#4bb446'],
+		sixToneCCW: ['#4682b4', '#af46b4', '#b44682', '#b4af46', '#82b446', '#46b4af'],
+		neutral: ['#4682b4', '#4667b4', '#464bb4', '#5c46b4', '#7846b4', '#9346b4'],
+		analogous: ['#4682b4', '#464bb4', '#7846b4', '#af46b4', '#b44682', '#b4464b']
 	},
 	shades: [
 		'#4682b4',
@@ -236,6 +236,10 @@ do some duplicate re-parsing, etc).
 
 
 ## Release History
+
+#### v0.2.0 - Released June 22, 2014
+
+- fixing a bug with the harmonies/scales that were being generated
 
 #### v0.1.0 - Released June 21, 2014
 
