@@ -1,0 +1,82 @@
+{
+	"name": "color-stats",
+	"description": "Generate color information based off of the hash of any object (or a valid color string)",
+	"version": "0.1.0",
+	"homepage": "https://github.com/skratchdot/color-stats",
+	"author": {
+		"name": "skratchdot",
+		"email": "git@skratchdot.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/skratchdot/color-stats.git"
+	},
+	"bugs": {
+		"url": "https://github.com/skratchdot/color-stats/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/skratchdot/color-stats/blob/master/LICENSE-MIT"
+		}
+	],
+	"main": "lib/color-stats",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"test": "gulp test"
+	},
+	"dependencies": {
+		"color": "^0.6.0",
+		"color-blind": "^0.1.0",
+		"color-harmony": "^0.1.0",
+		"color-quantize": "^0.1.0",
+		"colorname": "^1.1.0",
+		"cycle": "^1.0.3",
+		"jsonfn": "^0.31.0",
+		"onecolor": "^2.4.0",
+		"random-seed": "^0.2.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.8.1",
+		"gulp-jshint": "^1.6.3",
+		"gulp-nodeunit": "0.0.5"
+	},
+	"keywords": [
+		"color",
+		"colour",
+		"theory",
+		"harmony",
+		"harmonies",
+		"schemes",
+		"scales",
+		"shades",
+		"tints",
+		"tones",
+		"analogous",
+		"complementary",
+		"triadic",
+		"tetradic",
+		"rgb",
+		"rgba",
+		"hsl",
+		"hsla",
+		"hsv",
+		"hsva",
+		"cmyk",
+		"xyz",
+		"websafe",
+		"websmart",
+		"blindness",
+		"simulation",
+		"protanomaly",
+		"protanopia",
+		"deuteranomaly",
+		"deuteranopia",
+		"tritanomaly",
+		"tritanopia",
+		"achromatomaly",
+		"achromatopsia"
+	]
+}
