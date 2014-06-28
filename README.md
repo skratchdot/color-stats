@@ -237,6 +237,12 @@ do some duplicate re-parsing, etc).
 
 ## Release History
 
+#### v0.3.0 - Released June 28, 2014
+
+- modifying return format so "lib" data is more explicit
+- adding optional "rgbOnly" argument to random()
+- don't allow an alpha channel of 0 when returning random colors
+
 #### v0.2.1 - Released June 22, 2014
 
 - colorStats.random() should return alpha channel sometimes
