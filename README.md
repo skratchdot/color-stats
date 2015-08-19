@@ -7,7 +7,7 @@
 [![Dependency Status](https://david-dm.org/skratchdot/color-stats.svg)](https://david-dm.org/skratchdot/color-stats)
 [![devDependency Status](https://david-dm.org/skratchdot/color-stats/dev-status.svg)](https://david-dm.org/skratchdot/color-stats#info=devDependencies)
 
-[![NPM](https://nodei.co/npm/color-stats.svg)](https://npmjs.org/package/color-stats)
+[![NPM](https://nodei.co/npm/color-stats.png)](https://npmjs.org/package/color-stats)
 
 
 ## Description
