@@ -72,5 +72,20 @@ exports['color-stats'] = {
 		}
 		test.ok(oneAlpha);
 		test.done();
+	},
+	'random rgb values should match': function (test) {
+		var iterations = 1000;
+		var result;
+		test.expect(iterations * 6);
+		for (var i = 0; i < iterations; i++) {
+			result = colorStats.random();
+			test.equal(result.lib.color.rgb.r, result.lib.color.rgbArray[0]);
+			test.equal(result.lib.color.rgb.g, result.lib.color.rgbArray[1]);
+			test.equal(result.lib.color.rgb.b, result.lib.color.rgbArray[2]);
+			test.equal(result.lib.color.rgb.r, result.rgb.r);
+			test.equal(result.lib.color.rgb.g, result.rgb.g);
+			test.equal(result.lib.color.rgb.b, result.rgb.b);
+		}
+		test.done();
 	}
 };
