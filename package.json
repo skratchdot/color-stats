@@ -1,7 +1,7 @@
 {
   "name": "color-stats",
   "description": "Generate color information based off of the hash of any object (or a valid color string)",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "homepage": "https://github.com/skratchdot/color-stats",
   "author": {
     "name": "skratchdot",
@@ -33,7 +33,7 @@
     "color-convert": "^0.6.0",
     "color-harmony": "^0.3.0",
     "color-quantize": "^0.1.1",
-    "colorname": "^1.1.0",
+    "colorname": "^1.2.0",
     "cycle": "^1.0.3",
     "jsonfn": "^0.31.0",
     "onecolor": "^2.5.0",
