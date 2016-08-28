@@ -28,20 +28,20 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "color": "^0.10.1",
+    "color": "^0.11.3",
     "color-blind": "^0.1.1",
-    "color-convert": "^0.6.0",
+    "color-convert": "^1.4.0",
     "color-harmony": "^0.3.0",
     "color-quantize": "^0.1.1",
     "colorname": "^1.2.0",
     "cycle": "^1.0.3",
     "jsonfn": "^0.31.0",
-    "onecolor": "^2.5.0",
-    "random-seed": "^0.2.0"
+    "onecolor": "^3.0.4",
+    "random-seed": "^0.3.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-jshint": "^1.11.2",
+    "gulp-jshint": "^2.0.1",
     "gulp-nodeunit": "0.0.5"
   },
   "keywords": [
